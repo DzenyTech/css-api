@@ -1,7 +1,11 @@
-import React from 'react';
+import React from "react";
 
-const Footer = () => {
-  return <div>Footer</div>;
-};
+function Footer() {
+  return (
+    <footer className="footer">
+      <p>CSSZenica 2025 · React & TheMealDB API</p>
+    </footer>
+  );
+}
 
 export default Footer;
